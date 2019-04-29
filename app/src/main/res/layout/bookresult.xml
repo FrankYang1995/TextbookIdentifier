@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="100sp">
+
+    <LinearLayout
+        android:id="@+id/b_col_res"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30sp"
+            android:minWidth="30sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/res_img"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="60sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="6"
+            android:gravity="center|left"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/res_isbn"
+                android:textColor="@android:color/darker_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/res_title"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/res_author"
+                android:textStyle="italic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/res_pdf"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_pdf0"
+            android:clickable="true"
+            android:background="@android:color/white"
+            android:layout_weight="1"
+            android:maxHeight="36sp"
+            android:maxWidth="36sp"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/res_amazon"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_amazon"
+            android:clickable="true"
+            android:background="@android:color/white"
+            android:layout_weight="1"
+            android:maxHeight="36sp"
+            android:maxWidth="36sp"/>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

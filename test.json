@@ -1,0 +1,36 @@
+{ 
+	"books" : [
+		{
+			"title": "Calculus: Early Transcendentals", 
+			"author": "James Stewart", 
+			"ISBN": "1285741552", 
+			"amazon_link": "http://a.co/2xO7ouB", 
+			"download": "https://www.google.ca/",
+			"image": "https://images-na.ssl-images-amazon.com/images/I/51jitgi3EaL._AA327_FMwebp_QL65_.jpg"
+		},
+		{
+			"title": "Biology (8th Edition)", 
+			"author": "Neil A. Campbell", 
+			"ISBN": "0805368442", 
+			"amazon_link": "http://a.co/71OtJqq", 
+			"download": "https://www.google.ca/",
+			"image": "https://images-na.ssl-images-amazon.com/images/I/41-8JgrtsDL._AA327_FMwebp_QL65_.jpg"
+		},
+		{
+			"title": "Physics (5th Edition)", 
+			"author": "James S. Walker", 
+			"ISBN": "0321976444", 
+			"amazon_link": "http://a.co/45h9Pgo", 
+			"download": "https://www.google.ca/",
+			"image": "https://images-na.ssl-images-amazon.com/images/I/61bQ1w7DshL._AA327_FMwebp_QL65_.jpg"
+		},
+		{
+			"title": "Astronomy: A Beginner's Guide to the Universe (8th Edition)", 
+			"author": "Eric Chaisson", 
+			"ISBN": "0134087704", 
+			"amazon_link": "http://a.co/5egF5tE", 
+			"download": "https://www.google.ca/",
+			"image": "https://images-na.ssl-images-amazon.com/images/I/51uODTPGqmL._AA327_FMwebp_QL65_.jpg"
+		}
+		] 
+}
